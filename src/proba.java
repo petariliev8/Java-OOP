@@ -13,6 +13,7 @@ public class proba {
 
 
         public static void main(String[] args) throws IOException {
+            String name = "asdasfafsa";
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String[] dimensions = reader.readLine().split(" ");
             rows = Integer.valueOf(dimensions[0]);
