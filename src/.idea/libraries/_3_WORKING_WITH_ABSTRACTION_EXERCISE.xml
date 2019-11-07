@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="_3_WORKING_WITH_ABSTRACTION_EXERCISE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/_3_WORKING_WITH_ABSTRACTION_EXERCISE/_1_CardSuit.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_3_WORKING_WITH_ABSTRACTION_EXERCISE/_2_Card_Rank_.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_3_WORKING_WITH_ABSTRACTION_EXERCISE/_3_Cards_With_Power_.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/_5_inheritance/exercise/zoo.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_5_inheritance/exercise/Child.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

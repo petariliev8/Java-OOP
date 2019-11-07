@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="_3_working_with_abstractions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/_3_working_with_abstractions/Student_System.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_3_working_with_abstractions/Hotel_Reservation.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_3_working_with_abstractions/Rectangle.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_3_working_with_abstractions/Hotel_Reservation_with_ENUM.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

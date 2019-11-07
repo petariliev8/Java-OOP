@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Animal">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/_5_inheritance/Animal.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
