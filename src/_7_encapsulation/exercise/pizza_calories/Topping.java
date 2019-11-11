@@ -21,9 +21,17 @@ public class Topping {
         this.toppingType = toppingType;
     }
 
+    private String getToppingType() {
+        return toppingType;
+    }
+
+    private double getWeight() {
+        return weight;
+    }
+
     private void setWeight(double weight) {
         if (weight < 1 || weight > 50) {
-            throw new IllegalArgumentException(weight + "weight should be in the range [1..50].");
+            throw new IllegalArgumentException(this.getToppingType() + " weight should be in the range [1..50].");
         }
         this.weight = weight;
     }

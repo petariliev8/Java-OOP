@@ -56,6 +56,6 @@ public class Main {
 
             command = in.nextLine();
         }
-        
+
     }
 }
