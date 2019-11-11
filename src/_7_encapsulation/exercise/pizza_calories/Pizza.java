@@ -5,7 +5,7 @@ import java.util.List;
 public class Pizza {
 
     private String name;
-    private Dough dought;
+    private Dough dough;
     private int numberOfToppings;
     private List<Topping> toppings;
 
@@ -19,7 +19,7 @@ public class Pizza {
     private void setName(String name1) {
         if (name1 == null
                 || name1.trim().length() == 0
-                || name1.trim().length() > 15) {
+                || name1.length() > 15) {
             throw new IllegalArgumentException("Pizza name should be between 1 and 15 symbols.");
         }
         this.name = name1;
@@ -37,7 +37,7 @@ public class Pizza {
     }
 
     public void setDough(Dough dough1) {
-        this.dought = dough1;
+        this.dough = dough1;
     }
 
     public String getName() {
@@ -52,16 +52,9 @@ public class Pizza {
     }
 
     public double getOverallCalories (){
-      double sum = 0;
-        for (Topping topping : this.toppings) {
-           sum += topping.calculateCalories();
-        }
-        sum += this.dought.calculateCalories();
-        return sum;
+        return this.dough.calculateCalories() +
+                this.toppings.stream().mapToDouble(Topping::calculateCalories).sum();
     }
-    @Override
-    public String toString() {
-        return String.format("%s - %.2f", this.getName(), this.getOverallCalories());
-    }
+
 }
 
